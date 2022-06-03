@@ -4,8 +4,6 @@ import axios from 'axios'
 
 export const Message = () => {
     const [result, setResult] = useState('Loading...')
-    const [timer, setTImer] = useState(0)
-    const [time, setTime] = useState(0)
 
     const message = async () => {
         try {

@@ -1,0 +1,27 @@
+.header{
+    min-height: 50px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #282c34;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+
+}
+.header-block{
+    display:flex;
+    justify-content: center;
+    
+}
+.header-block:nth-child(1){
+    margin-left: 10%;
+    justify-content: flex-start;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.header-block:not(:nth-child(1)){
+    font-size: 18px;
+    margin-bottom: 15%;
+}
