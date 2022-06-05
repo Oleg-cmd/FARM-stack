@@ -15,7 +15,7 @@ export const Request = () => {
             setResult(result)
         } catch (err) {
             console.log(err)
-            setResult('Error' + err)
+            setResult(err)
         }
     }
 
